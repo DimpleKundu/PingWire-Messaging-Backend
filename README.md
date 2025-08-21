@@ -10,7 +10,8 @@ A high-performance backend for PingWire, a real-time messaging app. Secure, scal
 * ⚡ **Scalable Architecture:** Handles growing user base efficiently
 * 🌐 **RESTful APIs:** Easy integration with front-end clients
 
-## Future Scope:
+## 🔮 Future Scope
+
 * 🔐 **User Management:** Secure authentication & authorization
 * 💾 **Message Persistence:** Reliable storage of chats
 * ✅ **Delivery & Read Receipts:** Track message status
