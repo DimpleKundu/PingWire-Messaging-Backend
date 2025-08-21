@@ -1,98 +1,51 @@
-# 🚀 PingWire – Real-Time Messaging Backend  
+# PingWire-Messaging-Backend
 
-PingWire is a **real-time messaging backend** built with **FastAPI**, **MongoDB**, **WebSockets**, and **JWT authentication**.  
-It provides a secure, scalable, and low-latency solution for instant communication.  
+**PingWire-Messaging-Backend** 🚀
 
----
+A high-performance backend for PingWire, a real-time messaging app. Secure, scalable, and designed for seamless communication.
 
-## ✨ Features  
-- 🔐 **Secure Authentication** with JWT  
-- ⚡ **Real-Time Messaging** using WebSockets  
-- 📦 **Scalable Storage** with MongoDB  
-- 🛠️ **API Testing Ready** (Postman Collections available)  
-- 🐳 **Dockerized Deployment** for portability  
+## ✨ Features
 
----
+* 💬 **Real-time Messaging:** Instant communication via WebSockets
+* ⚡ **Scalable Architecture:** Handles growing user base efficiently
+* 🌐 **RESTful APIs:** Easy integration with front-end clients
 
-## 🏗️ Tech Stack  
-- **Backend**: FastAPI (Python)  
-- **Database**: MongoDB  
-- **Authentication**: JWT  
-- **Protocols**: WebSockets  
-- **Tools**: Docker, Git, Postman  
+## Future Scope:
+* 🔐 **User Management:** Secure authentication & authorization
+* 💾 **Message Persistence:** Reliable storage of chats
+* ✅ **Delivery & Read Receipts:** Track message status
 
----
+## 🛠 Tech Stack
 
-## 📂 Project Structure  
-PingWire/
-│── app/ # Core backend code
-│ ├── main.py # Entry point
-│ ├── auth/ # JWT authentication
-│ ├── messaging/ # WebSocket messaging
-│── tests/ # Unit tests
-│── requirements.txt # Python dependencies
-│── Dockerfile # Containerization setup
-│── README.md # Documentation
+* Node.js / Express (or your backend language)
+* WebSocket for real-time communication
+* MongoDB / PostgreSQL (or your database)
 
-yaml
-Copy code
+## 🚀 Getting Started
 
----
+1. Clone the repo:
 
-## ⚙️ Installation & Usage  
-
-### 1. Clone the Repository  
 ```bash
 git clone https://github.com/yourusername/PingWire-Messaging-Backend.git
-cd PingWire-Messaging-Backend
-2. Create Virtual Environment & Install Dependencies
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\\Scripts\\activate    # Windows
-pip install -r requirements.txt
-3. Run the Server
-bash
-Copy code
-uvicorn app.main:app --reload
-4. Access the API Docs
-Swagger UI → http://127.0.0.1:8000/docs
+```
 
-ReDoc → http://127.0.0.1:8000/redoc
+2. Install dependencies:
 
-🧪 Testing
-bash
-Copy code
-pytest tests/
-🐳 Run with Docker
-bash
-Copy code
-docker build -t pingwire-backend .
-docker run -p 8000:8000 pingwire-backend
-🌐 API Endpoints
-Method	Endpoint	Description
-POST	/auth/login	User login with JWT
-POST	/auth/signup	User registration
-GET	/messages	Fetch chat history
-WS	/ws/chat	Real-time chat socket
+```bash
+npm install
+```
 
-📸 Screenshots (Optional)
-(Add API docs screenshot, Postman test, or terminal output here)
+3. Configure environment variables (`.env`)
+4. Start the server:
 
-🏆 Achievements
-Designed for low-latency real-time communication
+```bash
+npm start
+```
 
-Scalable architecture with MongoDB and WebSockets
+## 🤝 Contribution
 
-Successfully tested using Postman & JMeter
+Contributions are welcome! Open issues or submit pull requests.
 
-🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+---
 
-📜 License
-This project is licensed under the MIT License.
-
-👩‍💻 Author
-Dimple Kundu
-
+**Made with ❤️ for real-time communication**
